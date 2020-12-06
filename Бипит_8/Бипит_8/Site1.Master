@@ -1,0 +1,24 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Бипит_8.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div style="width: 200px; float: left; height: 542px;">
+        <a href="WebForm1.aspx"> Список</a> <br>
+        <a href="WebForm2.aspx">Новый</a> <br>
+    </div>
+    <div style="height: 550px; float: left; width: 870px; margin: auto;">
+    <form id="form1" runat="server">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+    </form>
+    </div>
+</body>
+</html>
